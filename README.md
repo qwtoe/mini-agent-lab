@@ -54,3 +54,7 @@ python -m pytest -q examples/buggy_calculator/test_calculator.py
 - Create a dataset of tasks and an evaluation runner.
 - Experiment with tool errors, timeouts, and context limits.
 - Add a restricted editing tool and verify changes with independent tests.
+
+## Commit messages
+
+Follow the [Angular commit message guidelines](https://github.com/angular/angular/blob/main/contributing-docs/commit-message-guidelines.md). Use `<type>(<scope>): <summary>`, for example `fix(tools): handle missing files` or `docs: describe the agent loop`.
